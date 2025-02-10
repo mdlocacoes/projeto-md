@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Banco de Dados de Arquivos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="conteudo">
+
+        <div class="box-center">
+            <h1 class="titulo">Arquivos Projeto</h1>
+            <form id="fileForm">
+                <input type="text" id="fileName" placeholder="Nome do Arquivo" required>
+                <input type="text" id="fileContent" placeholder="Conteúdo do Arquivo" required>
+                <input type="file" id="fileUpload">
+                <button type="submit">Salvar</button>
+            </form>
+            <h2>Arquivos Salvos</h2>
+            <ul id="fileList"></ul>
+        </div>
+
+        <footer>
+            <p>Todos os direitos reservados &copy; 2025 - MD Locações</p>
+        </footer>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
